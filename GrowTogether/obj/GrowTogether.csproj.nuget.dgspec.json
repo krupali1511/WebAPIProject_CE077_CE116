@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Desktop\\GrowTogether\\GrowTogether\\GrowTogether\\GrowTogether.csproj": {}
+    "E:\\DDIT\\SEM_6\\SOC\\Projectv1\\WebAPIProject_CE077_CE116\\GrowTogether\\GrowTogether.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Desktop\\GrowTogether\\GrowTogether\\GrowTogether\\GrowTogether.csproj": {
+    "E:\\DDIT\\SEM_6\\SOC\\Projectv1\\WebAPIProject_CE077_CE116\\GrowTogether\\GrowTogether.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\GrowTogether\\GrowTogether\\GrowTogether\\GrowTogether.csproj",
+        "projectUniqueName": "E:\\DDIT\\SEM_6\\SOC\\Projectv1\\WebAPIProject_CE077_CE116\\GrowTogether\\GrowTogether.csproj",
         "projectName": "GrowTogether",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\GrowTogether\\GrowTogether\\GrowTogether\\GrowTogether.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\GrowTogether\\GrowTogether\\GrowTogether\\obj\\",
+        "projectPath": "E:\\DDIT\\SEM_6\\SOC\\Projectv1\\WebAPIProject_CE077_CE116\\GrowTogether\\GrowTogether.csproj",
+        "packagesPath": "C:\\Users\\Tiya\\.nuget\\packages\\",
+        "outputPath": "E:\\DDIT\\SEM_6\\SOC\\Projectv1\\WebAPIProject_CE077_CE116\\GrowTogether\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tiya\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -75,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

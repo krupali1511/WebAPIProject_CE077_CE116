@@ -8,8 +8,9 @@ namespace GrowTogether.Services
 {
     public interface IClassService
     {
-        public String JoinClass(User user, Classes classes);
-        public String LeaveClass(User user, Classes classes);
+        public String JoinClass(User user, ComputerScience classes);
+        public String LeaveClass(User user, ComputerScience classes);
+        public ComputerScience ValidateUSer(User user);
        
     }
 }

@@ -19,7 +19,7 @@ namespace GrowTogether.Controllers
             _classService = iclassservice;
         }
         [HttpGet("joinclass")]
-        public IActionResult Get([FromBody]User user, Classes classes){
+        public IActionResult Get([FromBody]User user, ComputerScience classes){
 
             var iclassservice = _classService.JoinClass(user, classes);
             if (iclassservice=="Success") {
@@ -31,8 +31,8 @@ namespace GrowTogether.Controllers
             }
         }
 
-        [HttpGet("leaveclass")]
-        public IActionResult LeaveClass([FromBody] User user, Classes classes)
+        [HttpDelete("leaveclass")]
+        public IActionResult LeaveClass([FromBody] User user, ComputerScience classes)
         {
 
             var iclassservice = _classService.LeaveClass(user, classes);
@@ -45,7 +45,15 @@ namespace GrowTogether.Controllers
                 return BadRequest(new { message = "Failed" });
             }
         }
-
+        [HttpGet("Validate")]
+        public IActionResult Validate([FromBody]User user)
+        {
+            var valid = _classService.ValidateUSer(user);
+            if (valid == null)
+                return Unauthorized();
+            else
+                return Ok();
+        }
 
     }
 }
